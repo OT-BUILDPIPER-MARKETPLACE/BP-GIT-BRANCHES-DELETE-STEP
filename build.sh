@@ -3,7 +3,7 @@
 source functions.sh
 source log-functions.sh
 
-case $REPO in
+case $REPO_TYPE in
 
   PRIVATE)
     ./private.sh
