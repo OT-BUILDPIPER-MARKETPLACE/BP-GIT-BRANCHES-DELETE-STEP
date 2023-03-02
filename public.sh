@@ -9,7 +9,7 @@ source aws-functions.sh
 logInfoMessage "I'll remove all unwanted branches from the [$ORGANISATION] organization's git repository"
 
 sleep $SLEEP_DURATION
-$FILE="repos"
+FILE="repos"
 
 mkdir repo && cd repo
 git init
